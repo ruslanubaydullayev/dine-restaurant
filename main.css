@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;700&family=Josefin+Sans:wght@300;400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700&family=Outfit:wght@200;400;600;800&family=Roboto:wght@500;700;900&display=swap");
+
+@layer utilities {
+  .text-beaver {
+    color: rgba(158, 127, 102);
+  }
+
+  .text-codGray {
+    color: rgba(17, 17, 17);
+  }
+
+  .text-mirage {
+    color: rgba(23, 25, 43);
+  }
+
+  .text-ebony {
+    color: rgba(36, 43, 55);
+  }
+
+  .text-shuttleGray {
+    color: rgba(92, 103, 121);
+  }
+
+  .btn-dark-text,
+  .btn-light-text {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+  }
+
+  .btn-dark:hover .btn-dark-text {
+    color: #17192b !important;
+  }
+
+  .btn-light:hover .btn-light-text {
+    color: #fff !important;
+  }
+}
