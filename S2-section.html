@@ -1,37 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./S2-main.css">
+    <link rel="stylesheet" href="./S2-tailwind-config.js">
 
     <link rel="icon" href="./S2-images/logo.svg">
     <title>Jamshid - Section 2</title>
 </head>
+
 <body>
-    <section></section>
-
-    <section class="flex items-center justify-center enjoy">
-        <img class="" 
-        src="./S2-images/s2_main-img.webp" alt=""
-        >
-
-        <div class=" enjoyable__textbox">
-
-            <h2 class="
-            enjoyable__textbox-title">
-            Enjoyable place for all the family
-            </h2>
-            <p class="
-            enjoyable__textbox-text">
-                Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange a tour of the farm before your meal.
-            </p>
-        </div>
-
-        <div class="   enjoyable__bg"></div>
+    <section>
+        <img src="./S2-images/section1.svg" alt="">
     </section>
 
-    <section class="j-food"></section>
+    <section class="enjoyable">
+        <div class="container flex items-center gap-[125px] justify-center z-10">
+
+            <img class="
+            block 
+            object-cover 
+            w-[540px] h-[720px] 
+            -mt-[80px]
+            enjoyable__img" 
+            src="./S2-images/s2_main-img.svg" alt="">
+    
+            <div class=" enjoyable__textbox">
+                <div class=" w-2 h-2
+                    rounded-full border-2 border-solid border-orange-400
+                    after:w-56 after:h-1 after:bg-orange-300
+                    mb-14
+                    enjoyable__liner">
+                </div>
+    
+                <h2 class=" 
+                    font-sans
+                    font-bold
+                    text-[48px]
+                    leading-[48px]
+                    text-[#242B37]
+                    mt-14
+                    mb-7
+                    enjoyable__textbox-title">
+                    Enjoyable place for all the family
+                </h2>
+    
+                <p class="
+                    font-sans
+                    font-normal
+                    text-[20px]
+                    leading[30px]
+                    text-[#242B37]
+                    
+                    enjoyable__textbox-text">
+                    Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange a tour
+                    of the farm before your meal.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="
+        z-0
+        -mt-[60px]
+        w-[895px] h-[320px]
+        bg-[#5C6779]
+        opacity-[0.08]
+        rounded-tr-[100px]
+        enjoyable__bg"></div>
+    </section>
+
+    <section class=" mb-10 mt-10 border-8  locallyfood">
+
+    </section>
 </body>
+
 </html>
