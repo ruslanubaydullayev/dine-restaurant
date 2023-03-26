@@ -11,28 +11,35 @@
   </head>
   <body>
     <section
-      class="lg:bg-[url('/images/Bitmap.webp')] lg:bg-cover lg:bg-no-repeat h-[100vh] bg-[url('/images/Bitmap768.webp')] bg-cover bg-no-repeat"
+      class="desktop:bg-[url('/images/Desktop_intro_bg.webp')] tablet:bg-[url('/images/Tablet.webp')] bg-[url('/images/Mobile.webp')] bg-cover bg-no-repeat desktop:h-[100vh] mobile:pb-[152px]"
     >
       <div class="container">
-        <div class="text-[#ffffff] text-4xl font-bold pt-16">dine</div>
-        <div class="text-[#fff] text-7xl font-light w-[508px]">
-          Exquisite dining since 2023
+        <div class="text-[#ffffff] text-4xl font-bold desktop:text-left
+        desktop:pt-[65px] desktop:pl-[0]
+        tablet:pt-[374px] tablet:pl-[0] 
+        pt-[232px] text-center">
+          dine
         </div>
-        <div class="text-[#fff] mt-2.5 w-[390px]">
+        <div
+          class="text-[#fff] desktop:text-7xl text-3xl desktop:text-left text-center font-light desktop:w-[618px] desktop:mt-[153px]"
+        >
+          Exquisite dining <br> since 2023
+        </div>
+        <div class="text-[#fff] desktop:mt-[10px] desktop:w-[390px] text-center mt-[21px] desktop:text-left">
           Experience our seasonal menu in beautiful country surroundings. Eat
           the freshest produce from the comfort of our farmhouse.
         </div>
         <button
-          class="btn-dark py-6 px-12 hover:bg-white border-white border border-solid text-[#fff] mt-[40px]"
+          class="btn-dark py-6 px-12 hover:bg-white border-white border border-solid desktop:mt-[40px] mt-[53px] block mx-auto desktop:mx-0"
         >
           <span class="text-white btn-dark-text uppercase">book a table</span>
         </button>
       </div>
     </section>
-    <hr />
-    <footer class="bg-[#111111]">
+    <!-- <hr /> -->
+    <!-- <footer class="bg-[#111111]">
       <div class="container">
-        <div class="flex justify-between w-[1100px]">
+        <div class="flex justify-between desktop:w-[1100px]">
           <div class="text-[#ffffff] text-4xl font-bold pt-[78px]">
             dine
           </div>
@@ -53,6 +60,6 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
