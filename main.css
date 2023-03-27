@@ -2,29 +2,29 @@
 
 @layer utilities {
   .heading-xl {
-    font-weight: 300;
-    font-size: 80px;
+    font-weight: 300 !important;
+    font-size: 80px !important;
     line-height: 80px;
     letter-spacing: -1px;
   }
 
   .heading-l {
-    font-weight: 700;
-    font-size: 48px;
+    font-weight: 700 !important;
+    font-size: 48px !important;
     line-height: 48px;
     letter-spacing: -0.5px;
   }
 
   .heading-m {
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 700 !important;
+    font-size: 20px !important;
     line-height: 24px;
     letter-spacing: -0.25px;
   }
 
   .heading-s {
-    font-weight: 600;
-    font-size: 17px;
+    font-weight: 600 !important;
+    font-size: 17px !important;
     line-height: 28px;
     letter-spacing: 2.5px;
   }
