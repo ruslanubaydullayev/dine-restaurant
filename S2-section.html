@@ -1,82 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./S2-main.css">
-    <script src="./S2-tailwind-config.js"></script>
+    <!-- <link rel="stylesheet" href="./S2-main.css"> -->
+    <!-- <script src="./S2-tailwind-config.js"></script> -->
+    <script src="./tailwind.config.js"></script>
+    <link rel="stylesheet" href="./main.css" />
 
-    <link rel="icon" href="./S2-images/logo.svg">
+    <link rel="icon" href="./S2-images/logo.svg" />
     <title>Jamshid - Section 2</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <section>
-        <img src="./S2-images/section1.svg" alt="">
+      <img src="./S2-images/section1.svg" alt="" />
     </section>
 
-    <section class="enjoyable container">
-        <div class="container flex items-center gap-[125px] justify-center z-10">
+    <section
+      class="enjoyable  "
+    >
+      <div class="container">
+        <div
+          class="desktop:flex desktop:flex-row desktop:items-center desktop:justify-center desktop:gap-20 mobile:gap-10 mobile:flex-col mobile:items-center z-10
+          bg-[url('/S2-images/Rec-left.png')] bg-no-repeat bg-left
+          desktop:h-[895px] mobile:h-[700px]
+          "
+        >
+          <img
+            mobile:shadow-md
+            class="block object-cover -mt-[80px] desktop:w-[540px] desktop:h-[720px] mobile:w-[573px] mobile:h-[360px] enjoyable__img"
+            src="./S2-images/s2_main-img.svg"
+            alt=""
+          />
 
-            <img class="
-            block 
-            object-cover 
-            w-[540px] h-[720px] 
-            -mt-[80px]
-            enjoyable__img" 
-            src="./S2-images/s2_main-img.svg" alt="">
-    
-            <div class=" enjoyable__textbox">
-                <div class=" w-2 h-2
-                    rounded-full border-2 border-solid border-orange-400
-                    after:w-56 after:h-1 after:bg-orange-300
-                    mb-14
-                    enjoyable__liner">
-                </div>
-    
-                <h2 class=" 
-                    font-sans
-                    font-bold
-                    text-[48px]
-                    leading-[48px]
-                    text-[#242B37]
-                    mt-14
-                    mb-7
-                    enjoyable__textbox-title">
-                    Enjoyable place for all the family
-                </h2>
-    
-                <p class="
-                    font-sans
-                    font-normal
-                    text-[20px]
-                    leading[30px]
-                    text-[#242B37]
-                    
-                    enjoyable__textbox-text">
-                    Our relaxed surroundings make dining with us a great experience for everyone. We can even arrange a tour
-                    of the farm before your meal.
-                </p>
-            </div>
+          <div class="enjoyable__textbox desktop:text-left mobile:text-center">
+            <img
+              class="mx-auto my-0"
+              src="./S2-images/rounded-line.svg"
+              alt=""
+            />
+
+            <h2
+              class="heading-l text-ebonyClay desktop:mt-14 desktop:mb-7 mobile:mt-10 mobile:mb-10 enjoyable__textbox-title"
+            >
+              Enjoyable place for all the family
+            </h2>
+
+            <p class="paragraph1 text-ebonyClay enjoyable__textbox-text">
+              Our relaxed surroundings make dining with us a great experience
+              for everyone. We can even arrange a tour of the farm before your
+              meal.
+            </p>
+          </div>
         </div>
 
+        <div class="locallyfood h-[516px] bg-[url('/S2-images/Rec-right.png')] bg-no-repeat bg-right-bottom">
+            <div class="container flex items-center justify-center gap-20 relative">
+                <div class="locallyfood__textbox">
+                  <div
+                    class="w-2 h-2 rounded-full border-2 border-solid border-beaver enjoyable__liner"
+                  ></div>
+        
+                  <h2
+                    class="locallyfood__heading heading-l text-ebonyClay mt-[55px] mb-[27px]"
+                  >
+                    The most locally sourced food
+                  </h2>
+        
+                  <p class="locallyfood__text paragraph1 text-ebonyClay">
+                    All our ingredients come directly from our farm or local fishery. So
+                    you can be sure that you’re eating the freshest, most sustainable
+                    food.
+                  </p>
+                </div>
+                <img
+                  src="./S2-images/locallyfood.svg"
+                  alt=""
+                  class="w-[540px] h-[720px] -mt-[100px]"
+                />
+        
+                <img
+                  src="./S2-images/locallfood-lines.png"
+                  alt=""
+                  class="bg-[url(./S2-images/locallfood-lines.png)] bg-no-repeat absolute -right-20"
+                />
+              </div>
+        </div>
+      </div>
 
-        <div class="
+      <!-- <div class="
         z-0
         -mt-[60px]
         w-[895px] h-[320px]
         bg-[#5C6779]
         opacity-[0.08]
         rounded-tr-[100px]
-        enjoyable__bg"></div>
+        enjoyable__bg"></div> -->
     </section>
 
-    <section class=" mb-10 mt-10 border-8  locallyfood">
+    <section
+      class="locallyfood h-[516px] bg-[url('/S2-images/Rec-right.png')] bg-no-repeat bg-right-bottom"
+    >
+      <!-- <div class="container flex items-center justify-center gap-20 relative">
+        <div class="locallyfood__textbox">
+          <div
+            class="w-2 h-2 rounded-full border-2 border-solid border-beaver enjoyable__liner"
+          ></div>
 
+          <h2
+            class="locallyfood__heading heading-l text-ebonyClay mt-[55px] mb-[27px]"
+          >
+            The most locally sourced food
+          </h2>
+
+          <p class="locallyfood__text paragraph1 text-ebonyClay">
+            All our ingredients come directly from our farm or local fishery. So
+            you can be sure that you’re eating the freshest, most sustainable
+            food.
+          </p>
+        </div>
+        <img
+          src="./S2-images/locallyfood.svg"
+          alt=""
+          class="w-[540px] h-[720px] -mt-[100px]"
+        />
+
+        <img
+          src="./S2-images/locallfood-lines.png"
+          alt=""
+          class="bg-[url(./S2-images/locallfood-lines.png)] bg-no-repeat absolute -right-20"
+        />
+      </div> -->
+      <!-- <div class="locallyfood__bg
+        w-[895px]
+        h-[320px]
+        bg-[#5C6779]
+        opacity-[0.08]
+        rounded-tl-[100px]
+        z-10
+        absolute
+        right-0
+        top-[20]
+        "></div> -->
     </section>
-</body>
-
+  </body>
 </html>

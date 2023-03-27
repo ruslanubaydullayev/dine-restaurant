@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;400;500;700&family=Josefin+Sans:wght@300;400;500;600;700&family=League+Spartan:wght@100;200;300;400;500;600;700&family=Outfit:wght@200;400;600;800&family=Roboto:wght@500;700;900&display=swap");
+
+@layer utilities {
+  .heading-xl {
+    font-weight: 300 !important;
+    font-size: 80px !important;
+    line-height: 80px;
+    letter-spacing: -1px;
+  }
+
+  .heading-l {
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+  }
+
+  .heading-m {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+  }
+
+  .heading-s {
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    line-height: 28px;
+    letter-spacing: 2.5px;
+  }
+
+  .paragraph1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .paragraph2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .btn-dark-text,
+  .btn-light-text {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 16px;
+    letter-spacing: 2.5px;
+  }
+
+  .btn-dark:hover .btn-dark-text {
+    color: #17192b !important;
+  }
+
+  .btn-light:hover .btn-light-text {
+    color: #fff !important;
+  }
+}
