@@ -4,19 +4,14 @@ tailwind.config = {
       center: true,
     },
     screens: {
-      mobile: "375px",
-      tablet: "768px",
-      desktop: "1024px",
+      mobile: "640px",
+      tablet: "960px",
+      desktop: "1110px",
     },
     fontFamily: {
       sans: [
-        "Inconsolata",
-        "monospace",
-        "Josefin Sans",
-        "sans-serif",
         "League Spartan",
-        "Outfit",
-        "Roboto",
+        "sans-serif",
       ],
     },
   },
