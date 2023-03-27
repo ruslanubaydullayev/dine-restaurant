@@ -10,13 +10,13 @@ tailwind.config = {
     },
     fontFamily: {
       sans: [
-        "Inconsolata",
-        "monospace",
-        "Josefin Sans",
-        "sans-serif",
+    
+ 
+  
         "League Spartan",
-        "Outfit",
-        "Roboto",
+        "sans-serif",
+ 
+     
       ],
     },
   },
