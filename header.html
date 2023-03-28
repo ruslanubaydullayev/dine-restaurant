@@ -11,62 +11,60 @@
   </head>
   <body>
     <section
-    style="background-image: url('images/osh.jpg'); height: 820px"
-    class="text-mirage bg-no-repeat bg-black bg-right md-bg-[url('images/Mobile_intro_bg.webp') !important]"
+      class="text-mirage bg-no-repeat bg-codGray desktop:h-[100vh] tablet:bg-right tablet:bg-[url('images/osh.jpg')] bg-contain bg-[url('images/Mobile_intro_bg.webp')]"
     >
-      <div class="container">
-        <div class="text-[#ffffff] text-4xl font-bold desktop:text-left
-        desktop:pt-[65px] desktop:pl-[0]
-        tablet:pt-[374px] tablet:pl-[0] 
-        pt-[232px] text-center">
-          dine
+      <div class="container px-[15px]">
+        <img
+          src="images/dine.svg"
+          class="pt-[60%] mobile:pt-[60%] tablet:pt-[65px] mb-[38px] mx-auto tablet:mx-[0]"
+          alt=""
+        />
+        <div
+          class="desktop:heading-xl mobile:text-[48px] text-[32px] text-white tablet:mt-[153px] tablet:text-left text-center"
+        >
+          Exquisite dining <br />
+          since 2023
         </div>
         <div
-          class="text-[#fff] desktop:text-7xl text-3xl desktop:text-left text-center font-light desktop:w-[618px] desktop:mt-[153px]"
+          class="text-[#fff] tablet:mt-[10px] tablet:w-[400px] mt-[21px] tablet:text-left text-center"
         >
-          Exquisite dining <br> since 2023
-        </div>
-        <div class="text-[#fff] desktop:mt-[10px] desktop:w-[390px] text-center mt-[21px] desktop:text-left">
-          Experience our seasonal menu in beautiful country surroundings. Eat
-          the freshest produce from the comfort of our farmhouse.
+          <span class="paragraph1"
+            >Experience our seasonal menu in beautiful country surroundings. Eat
+            the freshest produce from the comfort of our farmhouse.</span
+          >
         </div>
         <button
-          class="btn-dark py-6 px-12 hover:bg-white border-white border border-solid desktop:mt-[40px] mt-[53px] block mx-auto desktop:mx-0"
+          class="btn-dark py-6 px-12 hover:bg-white border-white border border-solid md:mt-[40px] mt-[53px] tablet:mx-0 block mx-auto"
         >
           <span class="text-white btn-dark-text uppercase">book a table</span>
         </button>
       </div>
     </section>
-    <hr />
 
-    
-    <footer class="bg-[#111111]">
-        <div class="container">
-          <div class="text-center lg-flex lg-justify-between text-white text-4xl font-bold pt-[78px] tablet:pt-[70px] tablet:pl-[40px]">
-            <div>dine</div>
-            <div class="hidden ml-40 text-[#ffffff] font-normal text-[14px] uppercase pt-[78px]">
-              <div>Marthwaite, Sedbergh</div>
-              <div class="mt-[7px]">Cumbria</div>
-              <div class="mt-[7px]">+00 44 123 4567</div>
+    <footer class="bg-codGray text-white">
+      <div class="container px-[15px]">
+        <div
+          class="flex tablet:space-x-[150px] pt-[78px] flex-col tablet:flex-row items-center tablet:items-start"
+        >
+          <img src="images/dine.svg" class="mx-auto tablet:mx-[0] mobile:ml-[0] mb-[30px] mobile:mb-[0]" alt="" />
+
+          <div
+            class="flex flex-col items-center tablet:items-start tablet:flex-row tablet:space-x-[110px] pb-[76px] uppercase"
+          >
+            <div class="text-center tablet:text-left mobile:-mt-[25px] tablet:mt-[0]">
+              <h4 class=" whitespace-nowrap">Marthwaite, Sedbergh</h4>
+              <h4 class="mt-[7px]">Cumbria</h4>
+              <h4 class="mt-[7px]">+00 44 123 4567</h4>
             </div>
-            <div class="hidden ml-40 text-[#ffffff] font-normal text-[14px] uppercase pt-[78px] pb-[78px]">
-              <div>Open times</div>
-              <div class="mt-[7px]">MON - FRI: 09:00 AM - 10:00 PM</div>
-              <div class="mt-[7px]">SAT - SUN: 09:00 AM - 11:30 PM</div>
+
+            <div class="pt-[32px] tablet:pt-[0] text-center tablet:text-left">
+              <h4 class="">Open times</h4>
+              <h4 class="mt-[7px] whitespace-nowrap">MON - FRI: 09:00 AM - 10:00 PM</h4>
+              <h4 class="mt-[7px] whitespace-nowrap">SAT - SUN: 09:00 AM - 11:30 PM</h4>
             </div>
-          </div>
-          <div class="text-center text-white text-[14px] uppercase pt-[78px]">
-            <div>Marthwaite, Sedbergh</div>
-            <div class="mt-[7px]">Cumbria</div>
-            <div class="mt-[7px]">+00 44 123 4567</div>
-          </div>
-          <div class="text-center text-white text-[14px] uppercase pt-[78px] pb-[78px]">
-            <div>Open times</div>
-            <div class="mt-[7px]">MON - FRI: 09:00 AM - 10:00 PM</div>
-            <div class="mt-[7px]">SAT - SUN: 09:00 AM - 11:30 PM</div>
           </div>
         </div>
-      </footer>
-      
+      </div>
+    </footer>
   </body>
 </html>
