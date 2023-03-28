@@ -6,7 +6,7 @@ tailwind.config = {
 
     screens: {
       mobile: "640px",
-      tablet: "769px",
+      tablet: "768px",
       desktop: "1110px",
     },
 
