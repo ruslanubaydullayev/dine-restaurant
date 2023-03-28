@@ -15,30 +15,30 @@
   </head>
 
   <body>
-    <section>
+    <!-- <section>
       <img src="./S2-images/section1.svg" alt="" />
-    </section>
+    </section> -->
 
     <section
-      class="enjoyable  "
+      class="enjoyable desktop:h-[100%] mobile:h-[700px]"
     >
-      <div class="container">
+      <div class="container z-10">
         <div
           class="desktop:flex desktop:flex-row desktop:items-center desktop:justify-center desktop:gap-20 mobile:gap-10 mobile:flex-col mobile:items-center z-10
-          bg-[url('/S2-images/Rec-left.png')] bg-no-repeat bg-left
-          desktop:h-[895px] mobile:h-[700px]
+          desktop:bg-[url('/S2-images/Rec-left.png')] bg-no-repeat desktop:bg-left-bottom mobile:bg-[url('')]
+          
           "
         >
           <img
             mobile:shadow-md
-            class="block object-cover -mt-[80px] desktop:w-[540px] desktop:h-[720px] mobile:w-[573px] mobile:h-[360px] enjoyable__img"
+            class="block object-cover -mt-[80px] desktop:w-[540px] desktop:h-[720px] mobile:w-[573px] mobile:h-[360px] mobile:mx-auto enjoyable__img"
             src="./S2-images/s2_main-img.svg"
             alt=""
           />
 
-          <div class="enjoyable__textbox desktop:text-left mobile:text-center">
+          <div class="enjoyable__textbox desktop:text-left mobile:text-center desktop:w-[90%] mobile:w-[457px] mobile:mx-auto mobile:mt-[56px] desktop:mt-0">
             <img
-              class="mx-auto my-0"
+              class="desktop:mx-0 mobile:mx-auto"
               src="./S2-images/rounded-line.svg"
               alt=""
             />
@@ -56,59 +56,42 @@
             </p>
           </div>
         </div>
-
-        <div class="locallyfood h-[516px] bg-[url('/S2-images/Rec-right.png')] bg-no-repeat bg-right-bottom">
-            <div class="container flex items-center justify-center gap-20 relative">
-                <div class="locallyfood__textbox">
-                  <div
-                    class="w-2 h-2 rounded-full border-2 border-solid border-beaver enjoyable__liner"
-                  ></div>
-        
-                  <h2
-                    class="locallyfood__heading heading-l text-ebonyClay mt-[55px] mb-[27px]"
-                  >
-                    The most locally sourced food
-                  </h2>
-        
-                  <p class="locallyfood__text paragraph1 text-ebonyClay">
-                    All our ingredients come directly from our farm or local fishery. So
-                    you can be sure that you’re eating the freshest, most sustainable
-                    food.
-                  </p>
-                </div>
-                <img
-                  src="./S2-images/locallyfood.svg"
-                  alt=""
-                  class="w-[540px] h-[720px] -mt-[100px]"
-                />
-        
-                <img
-                  src="./S2-images/locallfood-lines.png"
-                  alt=""
-                  class="bg-[url(./S2-images/locallfood-lines.png)] bg-no-repeat absolute -right-20"
-                />
-              </div>
-        </div>
       </div>
 
-      <!-- <div class="
+      <div class="
+        desktop:hidden
         z-0
-        -mt-[60px]
-        w-[895px] h-[320px]
+        -mt-[500px]
+        w-[500px] h-[320px]
         bg-[#5C6779]
         opacity-[0.08]
         rounded-tr-[100px]
-        enjoyable__bg"></div> -->
+        enjoyable__bg"></div>
     </section>
 
     <section
-      class="locallyfood h-[516px] bg-[url('/S2-images/Rec-right.png')] bg-no-repeat bg-right-bottom"
+      class="locallyfood h-[516px] mobile:mt-[128px] desktop:mt-0"
     >
-      <!-- <div class="container flex items-center justify-center gap-20 relative">
-        <div class="locallyfood__textbox">
-          <div
-            class="w-2 h-2 rounded-full border-2 border-solid border-beaver enjoyable__liner"
-          ></div>
+      <div class="container z-10 desktop:flex items-center justify-center gap-20 relative desktop:flex-row-reverse mobile:block desktop:bg-[url('/S2-images/Rec-right.png')] mobile:bg-[url('')] bg-no-repeat desktop:bg-right-bottom">
+        
+        <img
+          src="./S2-images/locallyfood.svg"
+          alt=""
+          class="desktop:w-[540px] desktop:h-[720px] mobile:w-[573px] mobile:h-[360px] desktop:-mt-[50px] mobile:-mt-0 mobile:mx-auto"
+        />
+
+        <img
+          src="./S2-images/locallfood-lines.png"
+          alt=""
+          class="bg-[url(./S2-images/locallfood-lines.png)] bg-no-repeat absolute desktop:-right-20 mobile:-right-0 mobile:top-[200px]"
+        />
+
+        <div class="locallyfood__textbox mobile:mt-[56px] mobile:text-center desktop:text-left desktop:w-[100%] mobile:w-[457px] mobile:mx-auto desktop:mx-0">
+          <img
+          class="desktop:mx-0 mobile:mx-auto"
+          src="./S2-images/rounded-line.svg"
+          alt=""
+          />
 
           <h2
             class="locallyfood__heading heading-l text-ebonyClay mt-[55px] mb-[27px]"
@@ -122,29 +105,18 @@
             food.
           </p>
         </div>
-        <img
-          src="./S2-images/locallyfood.svg"
-          alt=""
-          class="w-[540px] h-[720px] -mt-[100px]"
-        />
-
-        <img
-          src="./S2-images/locallfood-lines.png"
-          alt=""
-          class="bg-[url(./S2-images/locallfood-lines.png)] bg-no-repeat absolute -right-20"
-        />
-      </div> -->
-      <!-- <div class="locallyfood__bg
-        w-[895px]
+      </div>
+      <div class="locallyfood__bg
+        desktop:hidden
+        w-[500px]
         h-[320px]
         bg-[#5C6779]
         opacity-[0.08]
         rounded-tl-[100px]
-        z-10
-        absolute
-        right-0
-        top-[20]
-        "></div> -->
+        -mt-[200px]
+        ml-auto
+        z-0
+        "></div>
     </section>
   </body>
 </html>
