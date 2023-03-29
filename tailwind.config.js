@@ -16,8 +16,8 @@ tailwind.config = {
       mirage: "#17192b",
       ebonyClay: "#242b37",
       shuttleGray: "#5c6779",
-      black: "#000",
       white: "#fff",
+      black: "#000",
     },
 
     fontFamily: {
